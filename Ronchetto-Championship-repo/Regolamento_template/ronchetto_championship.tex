@@ -1,0 +1,462 @@
+\documentclass[12pt]{article}
+
+\usepackage[a4paper]{geometry}
+\usepackage{setspace}
+\usepackage[italian]{babel} % Imposta la lingua italiana come predefinita
+\setstretch{1.2}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{float}
+\usepackage{tabularx}
+\titleformat{\section}[display]
+{\normalfont\Huge\bfseries}{Capitolo \thesection}{0.5em}{\Huge}
+\usepackage{fancyhdr} % Aggiungi il pacchetto fancyhdr per personalizzare gli header e i footer
+
+\title{\textbf{\Huge Ronchetto Championship}}
+\author{Versione 2.23.1\\Ultima Revisione: 22 Agosto 2023}
+\date{Stagione \textbf{2023/2024}}
+
+% Personalizza gli header e i footer con fancyhdr
+\pagestyle{fancy}
+\fancyhf{} % Cancella tutti gli header e i footer predefiniti
+\chead{\textbf{Ronchetto Championship} - Stagione 2023/2024} % Aggiungi il titolo in grassetto all'header centrale
+\cfoot{\thepage} % Aggiungi il numero di pagina in fondo alla pagina
+
+\begin{document}
+
+\maketitle
+
+\thispagestyle{empty} % Rimuovi il numero di pagina dalla copertina
+
+\vspace*{\fill} % Posiziona le informazioni sul fondo della pagina
+\begin{flushright}
+Presidente di Lega: \textit{Foglia Fabrizio} \\
+Amministratore Delegato: \textit{Mangone Francesco} \\
+\end{flushright}
+
+% Aggiungi la pagina dell'albo d'oro
+\newpage
+\thispagestyle{empty} % Rimuovi il numero di pagina dalla copertina
+\mbox{}
+\begin{center}
+    \textit{Tutte le informazioni sulle stagioni passate, le versioni precedenti del Regolamento e informazioni della \textbf{\hyperref[ronchetto-championship]{Ronchetto Championship}} le puoi trovare sul \textbf{\hyperref[repository-ronchetto-championship]{GitHub Repository}}.}    
+\end{center}\newpage
+% Inizia la numerazione delle pagine
+\pagenumbering{arabic}
+\section*{Albo d'oro}
+\subsection*{Serie R}
+\begin{itemize}
+    \item 2017/2018 - \textbf{Ferrari Filippo}, Lanati Christian, Foglia Fabrizio
+    \item 2018/2019 - \textbf{Mohamed Nader}, Vignotto Alessandro, Lanati Thomas
+    \item 2019/2020 - \textbf{Lanati Christian}, Stefanelli Manuel, Cortellino Francesco
+    \item 2020/2021 - \textbf{Stefanelli Manuel}, Lanati Thomas, Lanati Christian
+    \item 2021/2022 - \textbf{Vignotto Alessandro}, Lanati Christian, Iacobucci Daniele
+    \item 2022/2023 - \textbf{Foglia Fabrizio}, Cortellino Francesco, Lanati Christian
+\end{itemize}
+
+\subsection*{Coppa Ronchetto}
+\begin{itemize}
+    \item 2018/2019 - \textbf{Vignotto Alessandro}
+    \item 2019/2020 - \textbf{Cortellino Francesco}
+    \item 2020/2021 - \textbf{Lanati Thomas}
+\end{itemize}
+
+\subsection*{Ronchetto League}
+\begin{itemize}
+    \item 2018/2019 - \textbf{Paoletti Lorenzo}
+    \item 2019/2020 - \textbf{Mohamed Nader}
+    \item 2020/2021 - \textbf{Lanati Christian}
+    \item 2021/2022 - \textbf{Iacobucci Daniele}
+    \item 2022/2023 - \textbf{Vignotto Alessandro}
+\end{itemize}
+
+\subsection*{Europa League}
+\begin{itemize}
+    \item 2021/2022 - \textbf{Mangone Francesco / Nardon Christian}
+    \item 2022/2023 - \textbf{Stefanelli Manuel}
+\end{itemize}
+
+
+% Crea un sommario delle sezioni
+\newpage
+\tableofcontents
+
+\newpage
+% Aggiungi le sezioni del tuo documento
+\section{Introduzione}
+
+Benvenuti nella Lega del Fantacalcio \textit{Ronchetto Championship}. \\ La nostra avventura nel mondo del Fantacalcio è iniziata nel lontano 2017/2018, quando un gruppo di amici ha deciso di creare una Lega su \textbf{\hyperref[leghe-fantacalcio]{Leghe Fantacalcio}} basata sul Campionato della FIGC di Serie A. Da allora, la nostra Lega è cresciuta e si è evoluta, aggiungendo nuovi partecipanti, regole e competizioni.
+
+La Lega è gestita principalmente dal Presidente di Lega \textit{Foglia Fabrizio} e dal suo Amministratore di Lega \textit{Mangone Francesco}, che si dedicano con passione e impegno alla creazione e alla gestione di un ambiente di gioco divertente e competitivo per tutti i partecipanti.
+
+In questa nuova edizione, abbiamo introdotto nuove regole e nuove competizioni, che renderanno il gioco ancora più avvincente e stimolante. Invitiamo tutti i partecipanti a leggere attentamente il regolamento e a rispettare le regole per garantire il corretto svolgimento delle partite.
+
+Ogni competizione si disputerà su diverse giornate di Serie A, e nel regolamento verrà descritto per ogni competizione in quali giornate di Serie A si giocherà. Siamo sicuri che questo nuovo anno di gioco ci riserverà molte emozioni e sorprese, e auguriamo a tutti i partecipanti un buon divertimento e che vinca il migliore.
+
+
+\subsection{Quota di partecipazione}
+Per partecipare alla Lega del Fantacalcio \textit{Ronchetto Championship}, ogni Fantallenatore dovrà versare la propria quota di partecipazione. Per l'edizione in corso, la quota di partecipazione è di \textbf{50 Euro} a Fantallenatore, che dovranno essere versati entro la data dell'asta di riparazione.
+
+Le singole quote di partecipazione dei Fantallenatori saranno unite per formare i Premi Finali.
+
+Ricordiamo che è prevista una penalità per il ritardo nel pagamento della quota di partecipazione. In caso di ritardo nel pagamento, il Fantallenatore interessato dovrà pagare una penalità (vedi Capitolo \ref{subsec:penalità}).
+
+Siamo certi che la partecipazione a questa edizione del \textit{Ronchetto Championship} sarà altrettanto divertente e avvincente delle precedenti, e auguriamo a tutti i Fantallenatori buona fortuna e un grande divertimento!
+
+\subsection{Competizioni}
+
+La Lega del Fantacalcio \textit{Ronchetto Championship} prevede per questa edizione tre diverse competizioni: 
+\begin{enumerate}
+    \item \textbf{Serie R}
+    \item \textbf{Ronchetto League}
+    \item \textbf{Europa League}
+\end{enumerate}
+
+Per i dettagli delle competezioni, vedi Capitolo \ref{subsec:competizioni}..
+
+\subsection{Premi Finali}
+Dopo aver raccolto le quote di partecipazione di tutti i Fantallenatori, le singole quote saranno unite per formare i Premi Finali della Lega del Fantacalcio \textit{Ronchetto Championship}. 
+
+Come negli anni precedenti, i Premi Finali saranno suddivisi tra le diverse competizioni della Lega, ovvero la Serie R, la Ronchetto League e l'Europa League.
+
+\begin{enumerate}
+    \item \textit{Serie R}
+    \begin{itemize}
+        \item \textbf{1° Classificato} - 200 Euro
+        \item \textbf{2° Classificato} - 100 Euro
+        \item \textbf{3° Classificato} - 50 Euro
+    \end{itemize}
+    \item \textit{Ronchetto League}
+    \begin{itemize}
+        \item \textbf{Vincitore} - 100 Euro
+    \end{itemize}
+    \item \textit{Europa League}
+    \begin{itemize}
+        \item \textbf{Vincitore} - 50 Euro
+    \end{itemize}
+\end{enumerate}
+
+\newpage
+\section{Fantasquadre}
+\subsection{Partecipanti}
+In questa edizione della Lega del Fantacalcio \textit{Ronchetto Championship} ci saranno in tutto 10 partecipanti, pronti a sfidarsi nelle diverse competizioni della Lega:
+\begin{enumerate}
+    \item \textbf{Mangone Francesco} (7a Partecipazione)
+    \begin{itemize}
+        \item 1 x \textit{Europa League} [2021/2022\footnote{Compartecipazione \textbf{Mangone Francesco} insieme a \textbf{Nardon Christian}}]
+    \end{itemize}
+    \item \textbf{Lanati Christian} (7a Partecipazione)
+    \begin{itemize}
+        \item 1 x \textit{Ronchetto League} [2020/2021]
+        \item 1 x \textit{Primo Classificato Serie R} [2019/2020]
+        \item 2 x \textit{Secondo Classificato Serie R} [2017/2018 - 2021/2022]
+        \item 2 x \textit{Terzo Classificato Serie R} [2020/2021 - 2022/2023]
+    \end{itemize}
+    \item \textbf{Lanati Thomas} (7a Partecipazione)
+    \begin{itemize}
+        \item 1 x \textit{Coppa Ronchetto} [2020/2021]
+        \item 1 x \textit{Secondo Classificato Serie R} [2020/2021]
+        \item 1 x \textit{Terzo Classificato Serie R} [2018/2019]
+    \end{itemize}
+    \item \textbf{Paoletti Lorenzo} (7a Partecipazione)
+    \begin{itemize}
+        \item 1 x \textit{Ronchetto League} [2018/2019]
+    \end{itemize}
+    \item \textbf{Vignotto Alessandro} (6a Partecipazione)
+    \begin{itemize}
+        \item 1 x \textit{Ronchetto League} [2022/2023]
+        \item 1 x \textit{Coppa Ronchetto} [2018/2019]
+        \item 1 x \textit{Primo Classificato Serie R} [2021/2022]
+        \item 1 x \textit{Secondo Classificato Serie R} [2018/2019]
+    \end{itemize}
+    \item \textbf{Mohamed Nader} (6a Partecipazione)
+    \begin{itemize}
+        \item 1 x \textit{Ronchetto League} [2019/2020]
+        \item 1 x \textit{Primo Classificato Serie R} [2018/2019]
+    \end{itemize}
+    \item \textbf{Stefanelli Manuel} (5a Partecipazione)
+    \begin{itemize}
+        \item 1 x \textit{Europa League} [2022/2023]
+        \item 1 x \textit{Primo Classificato Serie R} [2020/2021]
+        \item 1 x \textit{Secondo Classificato Serie R} [2019/2020]
+    \end{itemize}
+    \item \textbf{Cortellino Francesco} (5a Partecipazione)
+    \begin{itemize}
+        \item 1 x \textit{Coppa Ronchetto} [2019/2020]
+        \item 1 x \textit{Secondo Classificato Serie R} [2022/2023]
+        \item 1 x \textit{Terzo Classificato Serie R} [2021/2022]
+    \end{itemize}
+    \item \textbf{Iacobucci Daniele} (3a Partecipazione)
+    \begin{itemize}
+        \item 1 x \textit{Ronchetto League} [2021/2022]
+        \item 1 x \textit{Terzo Classificato Serie R} [2021/2022]
+    \end{itemize}
+    \item \textbf{Nardon Christian} (2a Partecipazione)
+    \begin{itemize}
+        \item 1 x \textit{Europa League} [2021/2022\textsuperscript{1}]
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection*{Vecchi partecipanti}
+In questa sezione sono elencati i Fantallenatori che hanno partecipato alla Lega del Fantacalcio \textit{Ronchetto Championship} nelle edizioni passate, ma che al momento non fanno parte della competizione. 
+
+Pur non essendo più presenti nella Lega, il loro contributo e la loro passione hanno reso possibile la nascita e lo sviluppo di questo campionato. 
+
+\begin{enumerate}
+    \item \textbf{Ferrari Filippo} (2 Partecipazioni)
+    \begin{itemize}
+        \item 1 x \textit{Primo Classificato Serie R} [2017/2018]
+    \end{itemize}
+    \item \textbf{Foglia Fabrizio} (5 Partecipazioni)
+    \begin{itemize}
+        \item 1 x \textit{Primo Classificato Serie R} [2022/2023]
+        \item 1 x \textit{Terzo Classificato Serie R} [2017/2018]
+    \end{itemize}
+\end{enumerate}
+\subsection{Rosa Fantasquadra}\label{subsec:rosa-fantasquadra}
+Ogni Fantasquadra è composta da giocatori del campionato di calcio di Serie A, scelti dal Fantallenatore durante le varie sessioni di mercato. La rosa della Fantasquadra deve essere composta da un minimo di \textbf{25} giocatori e un massimo di \textbf{32}, suddivisi nei seguenti ruoli: 
+\newline
+\\
+\begin{tabular}{|c|c|c|c|c|}
+    \hline
+     & \textbf{Portieri} & \textbf{Difensori} & \textbf{Centrocampisti} & \textbf{Attaccanti} \\
+    \hline
+    \textbf{Minimo} & 3 & 8 & 8 & 6 \\
+    \hline
+    \textbf{Massimo} & 4 & 10 & 10 & 8 \\
+    \hline
+  \end{tabular}
+\newline 
+
+
+\newpage
+\section{Sessioni di mercato}
+In questa sezione è possibile approfondire le sessioni di mercato, momento cruciale della Lega del Fantacalcio \textit{Ronchetto Championship}, dove i Fantallenatori hanno l'opportunità di completare e migliorare la propria rosa attraverso la vendita, lo svincolo o l’acquisto di giocatori. 
+
+Grazie alle sessioni di mercato, i Fantallenatori potranno cercare di raggiungere gli obiettivi prefissati, conquistare il titolo o migliorare la posizione in classifica.
+
+\subsection{Asta iniziale}
+
+L'Asta Iniziale è la prima sessione di mercato dove i Fantallenatori creano la propria rosa della Fantasquadra attraverso l'acquisto dei vari giocatori di Serie A.
+
+\subsubsection*{Modalità dell'asta}
+\label{subsec:asta-iniziale}
+
+L'Asta Iniziale si terrà il \textbf{15 settembre 2023} e seguirà le seguenti modalità:
+
+\begin{enumerate}
+\item All'inizio della sessione, ogni Fantallenatore avrà a disposizione un budget di \textbf{500 Fantamilioni} da utilizzare per comprare i giocatori.
+\item La sessione sarà suddivisa in diverse \textit{\textit{manche}}, ognuna per ruolo \begin{enumerate}
+    \item \textit{\textit{manche} dei portieri}
+    \item \textit{\textit{manche} dei difensori}
+    \item \textit{\textit{manche} dei centrocampisti}
+    \item \textit{\textit{manche} degli attaccanti}
+\end{enumerate} nelle quali si potranno comprare soltanto i giocatori del ruolo della \textit{manche} in corso. Pertanto, ad esempio, un Fantallenatore potrà comprare i propri difensori solo durante la \textit{manche} dei difensori e non potrà comprare un attaccante durante questa \textit{manche}.
+\item Le \textit{manche} seguiranno l'ordine stabilito, ovvero prima i portieri, poi i difensori, i centrocampisti e infine gli attaccanti. Durante ogni \textit{manche}, i Fantallenatori potranno comprare \textbf{solo} i giocatori del ruolo corrispondente.
+\item Durante una \textit{manche}, un Fantallenatore, a turno, potrà nominare \textbf{un} giocatore di Serie A (del ruolo della \textit{manche}) da cui si aprirà l'asta a rialzo con l'offerta di base pari a 1 Fantamilione da parte del Fantallenatore che lo ha nominato.
+\item Se un Fantallenatore è interessato a tale giocatore, potrà rialzare il prezzo offrendo 1 o più Fantamilioni in più rispetto all'offerta attuale (\textbf{solo numeri interi}, perciò non si accetterà offerte o rialzi, per esempio, di 0,5 Fantamilioni).
+\item Se durante l'asta un giocatore non riceverà offerte più alte dell'offerta migliore, il giocatore sarà inserito nella rosa del Fantallenatore che ha fatto \textbf{ l'ultima e la più alta offerta}. In questo caso, al Fantallenatore verrà scalato dal suo budget iniziale di 500 Fantamilioni ogni acquisto fatto durante l'asta iniziale.
+\item Durante l'intera durata dell'asta, ogni Fantallenatore avrà a disposizione 8 \textbf{Bonus Skip}. Ogni \textit{Bonus Skip} consente al Fantallenatore di saltare un turno di asta senza dover proporre un nome di giocatore. Questi bonus possono essere utilizzati in qualsiasi momento durante l'asta, ma una volta esauriti, non sarà più possibile utilizzarli nelle aste successive.
+\item Se un Fantallenatore non ha raggiunto il numero minimo di giocatori richiesto per il ruolo durante la \textit{manche}, è tenuto ad effettuare una proposta di un giocatore per l'asta e non ha la possibilità di saltare il proprio turno.
+Nel caso in cui un Fantallenatore abbia raggiunto il numero minimo di giocatori richiesto per il ruolo durante la \textit{manche}, ha le seguenti opzioni a disposizione:
+\begin{enumerate}
+    \item Può proporre il nome di un giocatore che ricopra il ruolo della \textit{manche}.
+    \item Se dispone di un \textit{Bonus Skip}, può scegliere di saltare il turno, evitando di proporre un nome.
+    \item Nel caso in cui non abbia a disposizione un \textit{Bonus Skip} o scelga di non utilizzarlo, può decidere di non proporre alcun giocatore e di non partecipare alle aste successive fino al termine della \textit{manche}.
+\end{enumerate}
+Ricordiamo di controllare il numero necessario di giocatori nella propria rosa e
+nei vari ruoli nel Capitolo \ref{subsec:rosa-fantasquadra}.
+\item Se il Fantallenatore ha raggiunto il numero massimo di giocatori per il ruolo della manche, \textbf{non potrà più partecipare alle aste successive} del medesimo ruolo fino alla fine della \textit{manche}.
+\item Ogni \textit{manche} si chiude quando \textbf{tutti} i Fantallenatori confermano al presidente di Lega di aver comprato sufficienti giocatori nel ruolo della \textit{manche} che si sta per chiudere.
+\item Alla conclusione della \textit{manche} degli attaccanti, l'asta iniziale verrà \textbf{ufficialmente chiusa} e i Fantamilioni non utilizzati in questa sessione non andranno persi, ma potranno essere riutilizzati nelle sessioni di mercato successive (descritte successivamente).
+\item Alla conclusione dell'asta iniziale, ciascun Fantallenatore avrà a disposizione i Fantamilioni rimanenti dal budget iniziale, oltre a un bonus aggiuntivo di \textbf{100 Fantamilioni}. Questo bonus di 100 Fantamilioni verrà assegnato a tutti i Fantallenatori indipendentemente dalle loro scelte durante l'asta iniziale. Questi Fantamilioni totali costituiranno il budget da utilizzare nelle aste successive e nelle operazioni di gestione della squadra.
+\item In caso un Fantallenatore non rispetti i limiti di giocatori per ruolo stabiliti o superi il budget iniziale, incorrerà in una penalità (vedi Capitolo \ref{subsec:penalità}).
+\end{enumerate}
+
+\subsection{Mercato di riparazione}
+Il Mercato di riparazione è una delle sessioni di mercato della Lega Fantacalcio che si tiene nel corso della stagione calcistica. Questa sessione di mercato serve ai Fantallenatori per aggiornare la propria rosa attraverso diverse operazioni, come gli svincoli, gli acquisti o gli scambi di giocatori. 
+In particolare, il Mercato di Riparazione comprende diverse fasi. 
+
+\subsubsection{Scambi Invernali}
+Inizialmente, viene aperta la Sessione di \textbf{Scambi Invernali}, che parte dal primo giorno del \textit{Mercato Invernale di Serie A} e termina \textbf{1 ora prima} dell'Asta di Riparazione. Durante questa fase, i Fantallenatori possono \textbf{scambiare} i propri giocatori con quelli degli altri Fantallenatori per migliorare la propria rosa. Per le modalità e le regole di questa sessione vedi Capitolo \ref{subsec:sessioni-scambi}.
+
+\subsubsection{Asta di Riparazione}
+Successivamente alla sessione di scambi, si tiene l'\textbf{Asta di Riparazione}, che si tiene dopo la chiusura del \textit{Mercato Invernale di Serie A}. Durante questa fase, i Fantallenatori possono \textbf{svincolare} i propri giocatori o \textbf{acquistare} nuovi giocatori per la propria squadra utilizzando i Fantamilioni rimasti dall'asta Iniziale e il bonus invernale di \textbf{100} Fantamilioni. 
+
+È importante ricordare che, prima di arrivare all'asta di riparazione, ci sono diverse sessioni di scambi, durante le quali i Fantallenatori possono ottenere o offrire Fantamilioni. In ogni caso, l'asta di riparazione rappresenta un'opportunità per i Fantallenatori di rafforzare la propria rosa e correggere eventuali lacune, utilizzando il budget a disposizione e seguendo le regole e le modalità dell'asta, simili a quelle dell'asta iniziale.
+\subsubsection*{Modalità dell'asta}
+L'Asta di Riparazione si terrà nel mese di \textbf{Febbraio 2024}\footnote{Data da stabilire in base alle possibilità di partecipazione dei Fantallenatori.} e seguirà le seguenti modalità:
+
+\begin{enumerate}
+    \item All’inizio della sessione, ogni Fantallenatore avrà a disposizione un budget pari ai Fantamilioni rimasti al Fantallenatore sommati al bonus invernale di \textbf{120} Fantamilioni da utilizzare per comprare i giocatori.
+    \item La sessione sarà suddivisa in due \textit{manche}, la prima degli \textit{Svincoli}, durante la quale i Fantallenatori possono liberarsi dei propri giocatori, e la seconda dell'\textit{Acquisti}, durante la quale i Fantallenatori possono acquistare nuovi giocatori.
+    \item Nella \textit{manche degli svincoli}, un Fantallenatore a turno potrà decidere di svincolare uno dei propri giocatori di Serie A. Lo \textbf{svincolo} di un giocatore significa che il Fantallenatore decide che tale giocatore \textbf{non farà più parte} della propria rosa e guadagnerà Fantamilioni in base alle seguenti regole:
+    \begin{enumerate}
+        \item Il Fantallenatore che decide di svincolare un proprio giocatore dalla rosa riceverà il \textbf{50\% dei Fantamilioni} spesi per comprare quel giocatore durante l’Asta Iniziale. Ad esempio, se un Fantallenatore decide di svincolare un giocatore che aveva comprato all’asta iniziale a 20 Fantamilioni, in cambio riceverà il 50\%, ovvero 10 Fantamilioni. Nel caso in cui la cifra di Fantamilioni che dovrebbe ricevere non sia un numero intero (ad esempio, 10,5 Fantamilioni), verrà arrotondata per \textbf{difetto}. La cifra di Fantamilioni da ricevere viene arrotondata per eccesso solo nel caso in cui il Fantallenatore abbia acquistato il giocatore per \textbf{1} Fantamilione, quindi, in questo caso riceverà 1 Fantamilione. 
+        \item Nel caso in cui nella propria rosa ci sia un giocatore che, durante il \textit{Mercato Invernale di Serie A}, si è trasferito in un’\textbf{altra squadra del campionato di calcio di Serie A}, il Fantallenatore potrà decidere se tenere nella propria rosa quel giocatore oppure svincolarlo ricevendo il \textbf{100\%} dei Fantamilioni spesi per comprare quel giocatore durante l’Asta Iniziale.
+        \item Nel caso in cui nella propria rosa ci sia un giocatore che, durante il \textit{Mercato Invernale di Serie A}, si è trasferito \textbf{al di fuori del campionato di calcio di Serie A}, il Fantallenatore \textbf{deve} svincolare quel giocatore ricevendo il 100\% dei Fantamilioni spesi per comprarlo durante l’Asta Iniziale.
+        \item Se un Fantallenatore desidera svincolare un giocatore che \textbf{non ha acquistato} durante l'Asta Iniziale, ma che ha ricevuto tramite uno scambio durante una Sessione di Scambi, il prezzo di svincolo di quel giocatore corrisponderà al prezzo di acquisto stabilito dal Fantallenatore che lo aveva originariamente acquistato all'Asta Iniziale. In altre parole, se ad esempio un \textit{Fantallenatore A} scambia un giocatore (acquistato all'asta iniziale per 20 Fantamilioni) con un \textit{Fantallenatore B}, e successivamente il \textit{Fantallenatore B} decide di svincolare quel giocatore, il prezzo di partenza su cui fare il calcolo di svincolo sarà di 20 Fantamilioni, poiché equivale al prezzo di acquisto stabilito all'asta iniziale dal Fantallenatore A.
+        \item Se un Fantallenatore svincola un giocatore, quel giocatore \textbf{NON} diventa disponibile per l'asta di riparazione e, quindi, \textbf{NON} può essere acquistato durante la \textit{manche} dedicata agli acquisti.
+        \item Se nel momento in cui un Fantallenatore comunica un giocatore, che intende svincolare, è presente un altro Fantallenatore che è interessato a quel giocatore si aprirà un'\textbf{asta} per il giocatore interessato. 
+        \begin{itemize}
+            \item Il \textbf{prezzo} di partenza dell'asta del giocatore è \textbf{pari} a quanto il Fantallenatore proprietario avrebbe guadagnato con lo svincolo di quel giocatore. 
+            \item Se sono presenti più di un Fantallenatore interessati a quel giocatore, sarà il Fantallenatore che offirà di più ad aggiudicarsi il giocatore.
+            \item \textbf{Non} è permesso proporre giocatori da scambiare.
+            \item Il proprietario \textbf{non} può decidere di non vendere quel giocatore dopo averlo proposto e dopo che l'asta è iniziata.
+        \end{itemize}
+        \item \textbf{Non} è permesso svincolare giocatori che sono stati acquistati durante questa \textit{manche}.
+        \item Nel caso in cui un Fantallenatore non abbia alcun giocatore da svincolare durante la \textit{manche} dedicata agli svincoli, ha la possibilità di passare il proprio turno al Fantallenatore successivo senza effettuare alcuna comunicazione.
+        \item La \textit{manche degli svincoli} si concluderà quando \textbf{tutti} i Fantallenatori avranno comunicato al \textit{Presidente di Lega} che non intendono effettuare ulteriori svincoli. In quel momento, il \textit{Presidente di Lega} dichiarerà \textbf{ufficialmente chiusa} la \textit{manche degli svincoli} e si passerà alla successiva \textit{manche} dell'Asta di Riparazione.
+        \item Durante la \textit{manche degli svincoli} dell'Asta di Riparazione, non sarà necessario rispettare il numero minimo di giocatori per ogni ruolo, poiché sarà possibile rimediare durante la successiva \textit{manche} dell'asta di riparazione dedicata agli acquisti.
+        \item Si ricorda che durante la \textit{manche degli svincoli} \textbf{non} sarà permesso effettuare scambi di giocatori tra i Fantallenatori, in quanto questa fase è dedicata \textbf{esclusivamente} allo svincolo dei giocatori dalla propria rosa.
+    \end{enumerate}
+    \item Durante la \textit{manche degli acquisti}, la stessa divisione in \textit{manche} dell’Asta Iniziale verrà applicata (vedi Capitolo \ref{subsec:asta-iniziale}). Il Fantallenatore a turno selezionerà il nome di un giocatore presente nella \textit{lista svincolati}, che verrà fornita a ogni Fantallenatore all’inizio del Mercato di riparazione, e da quel momento si aprirà l'asta a rialzo nella stessa modalità dell’Asta Iniziale. Si precisa che i giocatori che sono stati svincolati nella \textit{manche} precedente \textbf{non} faranno parte della lista svincolati della \textit{manche degli acquisti}.
+    \begin{itemize}
+        \item Durante questa \textit{manche} si possono utilizzare i Fantamilioni rimasti nel proprio budget, prestando attenzione a \textbf{non} andare in negativo.
+        \item Alla fine di questa \textit{manche}, ogni rosa della Fantasquadra dovrà rispettare i limiti di numero di giocatori per ruolo (vedi Capitolo \ref{subsec:rosa-fantasquadra}).
+        \item Rispetto l'Asta Iniziale, \textbf{non ci sarà un ordine di chiamata rispetto al ruolo} del giocatore, ovvero che all’inizio della \textit{manche}, ad esempio, si può chiamare un centrocampista oppure un attaccante e non per forza un portiere.
+        \item Rispetto l'Asta Iniziale, se un Fantallenatore non ha nessun giocatore da proporre, \textbf{può passare il turno}.
+        \item Nel caso in cui non si rispettino queste regole si incorrerà in una penalità (vedi Capitolo \ref{subsec:penalità}).
+        \item La \textit{manche degli acquisti} si chiude quando \textbf{tutti} i Fantallenatori avranno comunicato al \textit{Presidente di Lega} che non si ha più nessun giocatore che si vuole aggiungere alla propria rosa.
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection{Scambi di Riparazione}
+Infine, dopo l'Asta di Riparazione, si tiene la Sessione di \textbf{Scambi di Riparazione}, durante la quale i Fantallenatori possono ancora scambiare i propri giocatori. \par Per le modalità e le regole di questa sessione vedi Capitolo \ref{subsec:sessioni-scambi}.
+
+\vspace{10pt}
+
+In generale, il Mercato di Riparazione rappresenta un'opportunità per i Fantallenatori di migliorare la propria rosa e correggere eventuali lacune.
+\subsection{Sessioni di scambi}\label{subsec:sessioni-scambi}
+
+\subsubsection{Scambi Invernali}
+
+\subsubsection{Scambi di Riparazione}
+
+\subsubsection{Sessioni di scambi}
+\newpage
+\section{Competizioni}\label{subsec:competizioni}
+
+\subsection{Serie R}
+La competizione \textbf{Serie R} è una \textit{\hyperref[competizione-a-calendario]{Competizione a Calendario}} tra le 10 Fantasquadre iscritte alla lega, che si svolge durante le giornate del \textit{campionato di Serie A 2023/2024}, dalla V\footnote{Da decidere la giornata iniziale dopo l'Asta Iniziale} alla XXXVIII giornata, e prevede un \textbf{girone unico} nel quale le Fantasquadre si sfidano tra di loro.
+
+Il torneo è basato sulle partite tra le Fantasquadre, e il vincitore di ogni partita non è determinato dal punteggio finale ma dal numero di \textbf{Fantagol} ottenuti (vedi Capitolo \ref{subsec:sistema-di-calcolo}).
+
+In base al risultato ottenuto, la squadra vincente guadagnerà \textbf{3 punti} in classifica, quella sconfitta \textbf{non guadagnerà alcun punto} e, in caso di pareggio, entrambe le squadre guadagneranno \textbf{1 punto} in classifica, seguendo il regolamento del campionato di calcio di Serie A. Ogni giornata viene aggiornata la classifica generale, inserendo i punti ottenuti negli scontri diretti tra le squadre della competizione.
+
+Le 10 Fantasquadre si sfideranno tra di loro fino alla fine del \textit{Campionato di Serie A}, per un totale di \textbf{35} giornate in più gironi \textbf{asimettrici}\footnote{L’ordine delle partite tra i vari gironi è completamento diverso}. 
+Non essendo un numero di squadre perfetto per il numero di giornate del campionato, può capitare che alcune squadre si sfidino più volte di altre, in modo casuale.
+
+Nel caso in cui due o più squadre si trovino a pari punti in classifica, verranno applicati specifici criteri di discriminazione per stabilire la classifica finale:
+
+\begin{enumerate}
+    \item \textit{Somma Fantapunti}
+    \item \textit{Differenza Reti}
+    \item \textit{FantaGol Fatti}
+    \item \textit{FantaGol Subiti}
+    \item \textit{Classifica Avulsa}\footnote{La classifica avulsa è una vera e propria classifica, stilata in base ai punteggi (3 vittoria, 1 pareggio e 0 sconfitta) ottenuti negli scontri diretti tra due o più squadre che arrivano a pari punti in classifica generale.}
+\end{enumerate}
+\subsection{Ronchetto League}
+La competizione \textbf{Ronchetto League} è una \textit{\hyperref[competizione-a-gruppi]{Competizione a Gruppi}} composta da \textbf{due} gironi, ognuno dei quali è composto da \textbf{5} Fantasquadre. L'assegnazione delle squadre ai due gironi verrà stabilita tramite sorteggio durante il giorno dell'Asta Iniziale. Questo tipo di competizione è tipico delle coppe, dove prima degli scontri ad eliminazione diretta, c'è la fase a gruppi.
+
+\subsubsection*{Fase a Gruppi}
+A differenza della \textit{Serie R}, la Ronchetto League non prevede partite ad ogni giornata di Serie A, ma si giocheranno solamente \textbf{10} giornate in totale nei gironi, \textbf{5} di andata e \textbf{5} di ritorno a specchio\footnote{La prima giornata del girone d’andata coincide con l'ultima di ritorno e così tutte le restanti giornate, invertendo “a specchio” il calendario.}, nelle seguenti giornate di Serie A:
+\begin{enumerate}
+    \item 1a Giornata - \textbf{7a Giornata di Serie A}
+    \item 2a Giornata - \textbf{9a Giornata di Serie A}
+    \item 3a Giornata - \textbf{11a Giornata di Serie A}
+    \item 4a Giornata - \textbf{13a Giornata di Serie A}
+    \item 5a Giornata - \textbf{15a Giornata di Serie A}
+    \item 6a Giornata - \textbf{17a Giornata di Serie A}
+    \item 7a Giornata - \textbf{19a Giornata di Serie A}
+    \item 8a Giornata - \textbf{21a Giornata di Serie A}
+    \item 9a Giornata - \textbf{23a Giornata di Serie A}
+    \item 10a Giornata - \textbf{25a Giornata di Serie A}
+\end{enumerate}
+
+Essendo il numero di Fantasquadre per girone pari a 5, ogni giornata del torneo \textit{Ronchetto League} sarà presente una squadra a riposo. Questo significa che in ogni turno saranno disputate soltanto \textbf{quattro} partite tra le \textbf{otto} squadre rimanenti dei gironi. La squadra che riposerà in ogni turno non avrà l'opportunità di ottenere punti in classifica nella giornata in cui riposerà. 
+
+Questa peculiarità del torneo è comune a molte competizioni a gironi e permette di garantire un equilibrio nel numero di partite giocate da ogni squadra.
+
+Al termine della decima giornata, le \textbf{prime due} classificate di ogni girone accederanno alla \textit{fase a eliminazione diretta} della Ronchetto League. La \textbf{terza} classificata di ogni girone, invece, accederà alla \textit{fase a eliminazione diretta} dell'Europa League, mentre la \textbf{quarta} e la \textbf{quinta} di ogni girone si qualificheranno per i \textit{Play-Off di Europa League}. 
+
+Nel caso in cui due o più squadre si trovino a pari punti in classifica, verranno applicati specifici criteri di discriminazione per stabilire la classifica finale:
+
+\begin{enumerate}
+    \item \textit{Somma Fantapunti}
+    \item \textit{Differenza Reti}
+    \item \textit{FantaGol Fatti}
+    \item \textit{FantaGol Subiti}
+    \item \textit{Classifica Avulsa}\textsuperscript{5}
+\end{enumerate}
+
+\subsubsection*{Fase a Eliminazione Diretta}
+La fase ad eliminazione diretta della Ronchetto League vedrà le prime due classificate di ogni girone sfidarsi in due semifinali, con partite di \textbf{andata} e \textbf{ritorno}.
+Il criterio utilizzato per stabilire la squadra che passa il turno è quello degli \textbf{Incontri}. Questo metodo prevede la somma dei \textit{Fantagol} ottenuti dalle due squadre in entrambi gli incontri (andata e ritorno). La squadra che ha ottenuto il punteggio totale più alto delle due si qualificherà per la finale \textbf{secca}.. In caso di parità, saranno considerati altri criteri di discriminazione (vedi Capitolo \ref{subsec:sistema-di-calcolo}).
+
+La fase ad eliminazione diretta della Ronchetto League avrà il seguente calendario:
+\begin{enumerate}
+    \item Semifinali d'Andata - \textbf{30a Giornata di Serie A}
+    \begin{itemize}
+        \item \textbf{Secondo Classificato} (Girone A) - \textbf{Primo Classificato} (Girone B) 
+        \item \textbf{Secondo Classificato} (Girone B) - \textbf{Primo Classificato} (Girone A) 
+    \end{itemize}
+    \item Semifinali di Ritorno - \textbf{32a Giornata di Serie A}
+    \begin{itemize}
+        \item \textbf{Primo Classificato} (Girone A) - \textbf{Secondo Classificato} (Girone B) 
+        \item \textbf{Primo Classificato} (Girone B) - \textbf{Secondo Classificato} (Girone A) 
+    \end{itemize}
+    \item Finale - \textbf{35a Giornata di Serie A}
+\end{enumerate}
+
+\subsection{Europa League}
+
+\newpage
+\section{Calendario}
+
+\newpage
+\section{Sistema di calcolo}
+\label{subsec:sistema-di-calcolo}
+
+\subsection{Fase ad eliminazione diretta}
+\begin{enumerate}
+    \item \textbf{Supplementari e Rigori}: per ogni squadra il numero di reti realizzate nel supplementare è dato da una tabella di conversione che valuta la \textbf{fantamedia} (aritmetica) di tutti i panchinari \textbf{non subentrati} in campo. Nel calcolo della fantamedia \textbf{non} vengono conteggiati i portieri presenti in panchina e devono esserci almeno \textbf{due} voti validi tra i panchinari non subentrati in campo (con uno o nessuno il punteggio della squadra sarà \textbf{zero}).  
+    \item \textbf{Somma Punti}
+    \item \textbf{Gol Fuori Casa}
+\end{enumerate}
+
+\newpage
+\section{Situazioni anomale}
+
+\newpage
+\section{Penalità}\label{subsec:penalità}
+
+\newpage
+\section{Modifiche regolamento}
+
+\newpage
+\section*{Sitografia}
+\begin{enumerate}
+    \item\label{leghe-fantacalcio} Leghe Fantacalcio - \url{https://leghe.fantacalcio.it}
+    \item\label{ronchetto-championship} Ronchetto Championship - \url{https://leghe.fantacalcio.it/ronchetto-championship}
+    \item\label{repository-ronchetto-championship} GitHub Repository Ronchetto Championship - \url{https://github.com/fogliafabrizio/Ronchetto-Championship}
+    \item\label{competizione-a-calendario} Competizione a Calendario - \url{https://leghe.fantacalcio.it/guide-leghe-fantacalcio/gestione-competizioni/crea-una-competizione-a-calendario-81}
+    \item\label{competizione-a-gruppi} Competizione a Gruppi - \url{https://leghe.fantacalcio.it/guide-leghe-fantacalcio/gestione-competizioni/crea-una-competizione-a-gruppi-85}
+\end{enumerate}
+
+\newpage
+\thispagestyle{empty} % Rimuovi il numero di pagina dalla copertina
+\begin{flushright}
+
+    \vspace*{\fill}
+    \textit{Presidente di Lega}
+    \vspace{0.5cm} % spazio vuoto di mezzo centimetro
+    \rule{6cm}{0.4pt} \ % linea nera di 6cm di lunghezza e 0.4pt di spessore
+    
+    \textit{Amministratore Delegato}
+    \vspace{0.5cm} % spazio vuoto di mezzo centimetro
+    \rule{6cm}{0.4pt} \ % linea nera di 6cm di lunghezza e 0.4pt di spessore
+    
+\end{flushright}
+
+\end{document}
