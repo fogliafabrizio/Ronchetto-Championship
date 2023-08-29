@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.3)  28 AUG 2023 23:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.3)  29 AUG 2023 09:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/leaf23/Documents/Ronchetto-Championship/template/ronchetto_championship.tex
-(/Users/leaf23/Documents/Ronchetto-Championship/template/ronchetto_championship.tex
+**/Users/leaf23/Documents/RC-repo/Ronchetto-Championship/template/ronchetto_championship.tex
+(/Users/leaf23/Documents/RC-repo/Ronchetto-Championship/template/ronchetto_championship.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -778,18 +778,18 @@ Overfull \vbox (97.06694pt too high) has occurred while \output is active []
 
  [43] [44] (./ronchetto_championship.aux)
 Package rerunfilecheck Info: File `ronchetto_championship.out' has not changed.
-(rerunfilecheck)             Checksum: E52C8D8F56C137FE8F541DDEC1EDE320;5842.
+(rerunfilecheck)             Checksum: 1EB51F5310FB1EFC214B92A8C50F7CF7;5847.
  ) 
 Here is how much of TeX's memory you used:
  10178 strings out of 476025
- 161455 string characters out of 5790018
+ 161479 string characters out of 5790018
  1867388 words of memory out of 5000000
  30300 multiletter control sequences out of 15000+600000
  519623 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,76p,966b,646s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,76p,974b,646s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on ronchetto_championship.pdf (46 pages, 248805 bytes).
+Output written on ronchetto_championship.pdf (46 pages, 248812 bytes).
 PDF statistics:
  718 PDF objects out of 1000 (max. 8388607)
  637 compressed objects within 7 object streams

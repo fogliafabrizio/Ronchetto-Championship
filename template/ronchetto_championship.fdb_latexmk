@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1693258408 "/Users/leaf23/Documents/Ronchetto-Championship/template/ronchetto_championship.tex" "ronchetto_championship.pdf" "ronchetto_championship" 1693258408 0
-  "/Users/leaf23/Documents/Ronchetto-Championship/template/ronchetto_championship.tex" 1693258407 74810 262212f123d5539de2403b4efe14b2e2 ""
+["pdflatex"] 1693292947 "/Users/leaf23/Documents/RC-repo/Ronchetto-Championship/template/ronchetto_championship.tex" "ronchetto_championship.pdf" "ronchetto_championship" 1693292948 0
+  "/Users/leaf23/Documents/RC-repo/Ronchetto-Championship/template/ronchetto_championship.tex" 1693292946 74811 ca3634f9d6025a8fad290745a8209351 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcbx1200.tfm" 1136768653 1536 c09172c8f235393e6235bb4758357c41 ""
@@ -84,10 +84,10 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1683138549 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1683138509 7883465 f9abe7e4088201326d4ea4f01195ef83 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "ronchetto_championship.aux" 1693258408 6923 c2cbafd57a212eb675a61ad4718fc996 "pdflatex"
-  "ronchetto_championship.out" 1693258408 5842 e52c8d8f56c137fe8f541ddec1ede320 "pdflatex"
-  "ronchetto_championship.tex" 1693258407 74810 262212f123d5539de2403b4efe14b2e2 ""
-  "ronchetto_championship.toc" 1693258408 3568 c98d0d67edcb6ed93ea108d2fe33d89f "pdflatex"
+  "ronchetto_championship.aux" 1693292948 6924 b3005cc1856659c11011e261cc8cbda7 "pdflatex"
+  "ronchetto_championship.out" 1693292948 5847 1eb51f5310fb1efc214b92a8c50f7cf7 "pdflatex"
+  "ronchetto_championship.tex" 1693292946 74811 ca3634f9d6025a8fad290745a8209351 ""
+  "ronchetto_championship.toc" 1693292948 3569 d1326007ba7b7d5b9b2a1bf057d49b40 "pdflatex"
   (generated)
   "ronchetto_championship.aux"
   "ronchetto_championship.log"

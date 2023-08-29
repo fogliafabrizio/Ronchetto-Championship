@@ -36,7 +36,7 @@
 \contentsline {subsubsection}{\numberline {5.5.1}Supplementari}{33}{subsubsection.5.5.1}%
 \contentsline {subsubsection}{\numberline {5.5.2}Rigori}{34}{subsubsection.5.5.2}%
 \contentsline {section}{\numberline {6}Situazioni anomale}{36}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Partite Posticipate}{36}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.1}Partite Posticipates}{36}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Campionato Interrotto}{37}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Giocatori non svincolabili}{37}{subsection.6.3}%
 \contentsline {section}{\numberline {7}Penalità}{39}{section.7}%
